@@ -2,7 +2,7 @@
 <img src="ProjectSupportFiles/ASM-IBE-Logo.png" width="500"/>
 </div>
 
-# 📦 ASM_IBE: An Open-Access IBE Encryption Tool 
+# 📦 ASM-IBE: An Open-Access IBE Encryption Tool 
 
 > A brief description of what your project does and who it's for.
 > 
