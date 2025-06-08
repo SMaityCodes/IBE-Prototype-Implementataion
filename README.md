@@ -1,5 +1,5 @@
 <div align="center">
-<img src="mkdocs/docs/circom-logo-black.png" width="300"/>
+<img src="ProjectSupportFiles/ASM-IBE-Logo.png" width="500"/>
 </div>
 
 # 📦 ASM_IBE: An Open-Access IBE Encryption Tool 
