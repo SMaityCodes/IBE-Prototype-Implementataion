@@ -3,21 +3,22 @@
 </div>
 
 # 📦 ASM-IBE: An Open-Access IBE Encryption Tool 
-This is a prototype implementation of Identity-based Encryption System (IBE) proposed by [Boneh et. al.](https://doi.org/10.1007/3-540-44647-8_13). 
+This is a prototype implementation of Identity-based Encryption System (IBE) proposed by [Boneh et. al.](https://doi.org/10.1007/3-540-44647-8_13). IBE is a public-key encryption technology which does not require public-key certificates for p
  
 # 📦 Prerequisite:
 - ✅ Platform : UNIX OS
 - ✅ Install PBC from [here](https://crypto.stanford.edu/pbc/): A Pairing Based Cryptography Libaray
+- ✅ [Documentation](https://your-docs-link.com): Please go through the documentataion to know about IBE protocol in brief.
 
 
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Version](https://img.shields.io/badge/version-1.0.0-green)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
 ## 🚀 Demo
 
-[Live Demo](https://your-demo-link.com) • [Documentation](https://your-docs-link.com)
+[Live Demo](https://your-demo-link.com) 
 
 ## 📸 Screenshots
 
