@@ -3,7 +3,16 @@
 </div>
 
 # 📦 ASM-IBE: An Open-Access IBE Encryption Tool 
-This is a prototype implementation of Identity-based Encryption System (IBE) proposed by [Boneh et. al.](https://doi.org/10.1007/3-540-44647-8_13). IBE is a public-key encryption technology which does not require public-key certificates for p
+This is a prototype implementation of Identity-based Encryption System (IBE) proposed by [Boneh et. al](https://doi.org/10.1007/3-540-44647-8_13). IBE is a public-key encryption technology which does not require public-key certificates for public key authentication, rther, the public-key of an user is derived (usualy by hashing) from the public information (like the uique ID) of the user. Apart from the users of the system, the protocol uses two types of trusted authorities, viz., It consitts of the following four algorithms:-
+
+- Setup: this alog. is executed by a gobally trusted Admin 
+- KeyGen
+- Encrypt
+- Decrypt
+
+Additionally, it also provides the following algorithm
+
+- VrifyKey
  
 # 📦 Prerequisite:
 - ✅ Platform : UNIX OS
