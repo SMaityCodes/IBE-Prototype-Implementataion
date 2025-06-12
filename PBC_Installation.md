@@ -66,7 +66,7 @@ In order to test whether the installation is successful or not, let us try to co
     ```
     If you see the following error:-
 
-    ![Alt Text](error.png)
+    ![Alt Text](./ProjectSupportFiles/error.png)
 
     then, open the C code ("bls.c") and replace the following two lines:-
     ```c 
