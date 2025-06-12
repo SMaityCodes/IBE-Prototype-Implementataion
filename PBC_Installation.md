@@ -55,8 +55,46 @@ sudo make install
     sudo ldconfig
     ```
 
-## Compiling an Example Program
+## Compiling an Executing an Example Program
 
 In order to test whether the installation is successful or not, let us try to compile and run an example program:-
 
+1. go inside the "...../pbc-0.5.14/example" directory. There are a number of example C programs inside it. Suppose we want to test on "bls.c".
+2. Open a terminal inside the directory and run the following command:-
+    ```bash
+    gcc -o output bls.c -L. -lgmp -lpbc
+    ```
+    If you see the following error:-
 
+    ![Alt Text](error.png)
+
+    then, open the C code ("bls.c") and replace the following two lines:-
+    ```c 
+    #include <pbc.h>
+    #include <pbc_test.h> 
+    ``` 
+    by the following two lines:-
+
+    ```c 
+    #include <pbc/pbc.h>
+    #include <pbc/pbc_test.h> 
+    ``` 
+
+3. If the compilation is successful, it will generate an executable file named `output`. To execute, run the following:-
+
+    ```bash
+    ./output ..../pbc-0.5.14/param/a.param # Edit the path properly
+    ```
+4. If you see the following two lines at the  end of the output displayed on terminal then everything is OK!
+    ```shell
+    signature verifies on first guess
+    random signature doesnt verify
+    ```
+
+    
+
+    ## Acknowledgements
+
+    The above instructions are compiled with the help of the PBC manual available in the https://crypto.stanford.edu/pbc/manual.pdf. For complete detail of the source code, you can refer to the provided link.
+
+    
