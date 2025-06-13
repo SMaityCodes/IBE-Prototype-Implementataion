@@ -3,9 +3,14 @@
 </div>
 
 # 📦 ASM-IBE: An Open-Access IBE Encryption Tool 
-This is a prototype implementation of Identity-based Encryption System (IBE) proposed by [Boneh et. al](https://doi.org/10.1007/3-540-44647-8_13). IBE is a public-key encryption technology which does not require public-key certificates for public key authentication, rther, the public-key of an user is derived (usualy by hashing) from the public information (like the uique ID) of the user. Apart from the users of the system, the protocol uses two types of trusted authorities, viz., It consitts of the following four algorithms:-
+This is a prototype implementation of Identity-based Encryption System (IBE) proposed by [Boneh et. al](https://doi.org/10.1007/3-540-44647-8_13). IBE is a public-key encryption technology which does not require public-key certificates for public key authentication, rather, the public-key of an user is derived (usually by hashing) from the public information (like the uique ID) of the user. Apart from the users of the system, the protocol uses two types of trusted authorities, viz., a globally trusted Admin, and a Key Generation Center (KGC) authorized by the Admin. Users are registered by a KGC. It can be noted that there may me multiple KGCs authorized by the global Admin creating a hirearchy of registrataion as shown below:-
 
-- Setup: this alog. is executed by a gobally trusted Admin 
+![Alt Text](ProjectSupportFiles/Tree1.svg)
+
+It consists of the following four algorithms:-
+
+- Setup: this algo. is executed by a globally trusted Admin which generates the following items:-
+    - a master-secret-key (MSK) 
 - KeyGen
 - Encrypt
 - Decrypt
@@ -16,7 +21,7 @@ Additionally, it also provides the following algorithm
  
 # 📦 Prerequisite:
 - ✅ Platform : UNIX OS
-- ✅ Install PBC from [here](https://crypto.stanford.edu/pbc/): A Pairing Based Cryptography Libaray
+- ✅ Install PBC from [here](https://github.com/wellsaid/pbc-0.5.14.git): A Pairing Based Cryptography Libaray
 - ✅ [Documentation](https://your-docs-link.com): Please go through the documentataion to know about IBE protocol in brief.
 
 
