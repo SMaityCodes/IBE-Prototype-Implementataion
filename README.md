@@ -5,7 +5,11 @@
 # 📦 ASM-IBE: An Open-Access IBE Encryption Tool 
 This is a prototype implementation of Identity-based Encryption System (IBE) proposed by [Boneh et. al](https://doi.org/10.1007/3-540-44647-8_13). IBE is a public-key encryption technology which does not require public-key certificates for public key authentication, rather, the public-key of an user is derived (usually by hashing) from the public information (like the uique ID) of the user. Apart from the users of the system, the protocol uses two types of trusted authorities, viz., a globally trusted Admin, and a Key Generation Center (KGC) authorized by the Admin. Users are registered by a KGC. It can be noted that there may me multiple KGCs authorized by the global Admin creating a hirearchy of registrataion as shown below:-
 
-![Alt Text](ProjectSupportFiles/Tree1.svg)
+<div align="center">
+<img src="ProjectSupportFiles/Tree1.svg" width="500"/>
+</div>
+
+
 
 It consists of the following four algorithms:-
 
